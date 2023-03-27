@@ -35,7 +35,7 @@
 # import dash_html_components as html
 # 
 # # Define the database connection parameters
-# engine = sqlalchemy.create_engine('mysql+mysqlconnector://flask:Admin123456#@175.178.10.95/iotplatform')
+# engine = sqlalchemy.create_engine('mysql+mysqlconnector://user:password@host/databsase')
 # 
 # # Load data from the database into a Pandas DataFrame
 # df = pd.read_sql('SELECT * FROM humiture', engine)
@@ -68,7 +68,7 @@
 # import dash_html_components as html
 # 
 # # Define the database connection parameters
-# engine = sqlalchemy.create_engine('mysql+mysqlconnector://flask:Admin123456#@175.178.10.95/iotplatform')
+# engine = sqlalchemy.create_engine('mysql+mysqlconnector://user:password@host/databsase')
 # 
 # # Load data from the database into a Pandas DataFrame
 # df = pd.read_sql('SELECT * FROM humiture', engine)
@@ -102,7 +102,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash_table import DataTable
 # Define the database connection parameters
-engine = sqlalchemy.create_engine('mysql+mysqlconnector://flask:Admin123456#@175.178.10.95/iotplatform')
+engine = sqlalchemy.create_engine('mysql+mysqlconnector://user:password@host/databsase')
 
 # Load data from the database into a Pandas DataFrame
 df = pd.read_sql('SELECT * FROM humiture', engine)
